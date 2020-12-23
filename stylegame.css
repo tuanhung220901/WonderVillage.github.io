@@ -172,11 +172,11 @@ body {
     background-size: cover;
 }
 #nhan-vat-1 .nhan-vat-img {
-    background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/edd/2015/08/red-knight-game-art-character-featured-2.png");
+    background-image: url("images/nhanvat1.png");
 }
 
 #nhan-vat-2 .nhan-vat-img {
-    background-image: url("https://i.dlpng.com/static/png/6633913_preview.png");
+    background-image: url("images/nhanvat2.png");
     background-size: cover;
 }
 
@@ -186,12 +186,12 @@ body {
 }
 
 #nhan-vat-4 .nhan-vat-img {
-    background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2016/06/Roman-Knight-Royalty-Free-Game-Art.png");
+    background-image: url("images/nhanvat4.png");
     background-size: cover;
 }
 
 #nhan-vat-5 .nhan-vat-img {
-    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/2d-game-character-png-7.png");
+    background-image: url("images/nhanvat5.png");
     background-size: cover;
 }
 
