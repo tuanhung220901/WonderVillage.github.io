@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <audio id="Tieng-click">
+        <source src="Music/Click.mp3">
+    </audio>
+    <audio loop id="Music">
+        <source src="Music/Reach Beyond.mp3">
+    </audio>
+    <audio id="Tieng-win">
+        <source src="Music/Tieng_win.mp3">
+    </audio>
+    <audio id="Tieng-thua">
+        <source src="Music/Tieng_thua.mp3">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Langar&family=Nerko+One&family=Ranchers&display=swap"
+        rel="stylesheet">
+    <script src="play.js"></script>
+    <link rel="stylesheet" href="stylegame.css">
+</head>
+<body>
+    <!-- <audio id='player' autoplay loop><source src='Music/Nhac nen hay.mp3' type='audio/mp3'></audio> -->
+    
+    <div class="web">
+        <!-- <div class="out"></div> -->
+        
+        <div class="display">
+             
+            <div class="cha_top">
+                 <div class="bao-nut-huong-dan">
+                        <!-- <div class="Nut-huong-dan"></div> -->
+                            <button class="khung-bao-nut-am-nhac">
+                                <div class="Nut-am-nhac "></div> 
+                            </button>
+                            
+                         
+                    </div>
+                <div style="font-size: 70px;font-family: 'Langar', cursive; color: rgb(139, 126, 126);  text-shadow: 10px 10px 25px rgb(48, 46, 40),
+                -10px 10px 25px rgb(53, 43, 12),
+                -10px -10px 25px rgb(39, 37, 31),
+                10px -10px 25px rgb(32, 32, 31); border-bottom:3px solid rgb(255, 255, 251);" id="level">LEVEL
+                    1</div>
+                  
+                    
+            </div>
+            <div id="nhan-vat-1" class="people khungtrai">
+                <div class="chenkhung">
+                    <div class="thanhvatpham-wrapper">
+                        <div class="thanhvatpham" id="thanh1">
+                        </div>
+                        <div class="nhan-vat-img"></div>
+                    </div>
+                    <div style="width: 100%;"></div>
+                    <button class="ochonvatpham bovienvatpham tmp third" style="font-family: 'The Girl Next Door', cursive;font-weight: 500;" id=0>
+                        chọn vật phẩm
+                    </button>
+                </div>
+            </div>
+            <div id="nhan-vat-2" class="people khunggiua">
+                <div class="chenkhung">
+
+                    <div class="thanhvatpham-wrapper">
+                        <div class="thanhvatpham" id="thanh2">
+                            <!-- <div class="chuyendo" style="background-image: url(icon1test.png);"></div> -->
+                        </div>
+                        <div class="nhan-vat-img"></div>
+                    </div>
+                    <div style="width: 100%;"></div>
+                    <button class="ochonvatpham bovienvatpham tmp third" style="font-family: 'The Girl Next Door', cursive;font-weight: 500;" id=1>
+                        chọn vật phẩm
+                    </button>
+                </div>
+            </div>
+            <div id="nhan-vat-3" class="people khunggiua">
+                <div class="chenkhung">
+
+                    <div class="thanhvatpham-wrapper">
+                        <div class="thanhvatpham" id="thanh3">
+                        </div>
+                        <div class="nhan-vat-img"></div>
+                    </div>
+                    <div style="width: 100%;"></div>
+                    <button class="ochonvatpham bovienvatpham tmp third" style="font-family: 'The Girl Next Door', cursive;font-weight: 500;" id=2>
+                        chọn vật phẩm
+                    </button>
+                </div>
+            </div>
+            <div id="nhan-vat-4" class="people khunggiua">
+                <div class="chenkhung">
+
+                    <div class="thanhvatpham-wrapper">
+                        <div class="thanhvatpham" id="thanh4"></div>
+                        <div class="nhan-vat-img"></div>
+                    </div>
+                    <div style="width: 100%;"></div>
+                    <button class="ochonvatpham bovienvatpham tmp third" style="font-family: 'The Girl Next Door', cursive;font-weight: 500;" id=3>
+                        chọn vật phẩm
+                    </button>
+                </div>
+            </div>
+            <div id="nhan-vat-5" class="people khungphai">
+                <div class="chenkhung">
+
+                    <div class="thanhvatpham-wrapper">
+                        <div class="thanhvatpham" id="thanh5"></div>
+                        <div class="nhan-vat-img"></div>
+                    </div>
+                    <div style="width: 100%;"></div>
+                    <button class="ochonvatpham bovienvatpham tmp third" style="font-family: 'The Girl Next Door', cursive;font-weight: 500;" id=4>
+                        chọn vật phẩm
+                    </button>
+                </div>
+            </div>
+            
+            <div class=" box"></div>
+            <div class= "nen-WIN"></div>
+            <div class="nen-THUA"></div>
+            <div class="bottom">
+                <button class="button_start hien_thi learn-more" style="font-size: 100%;">
+                    <div style="font-weight: 600;">
+                        Check
+                    </div>
+                </button>
+            </div>
+            
+        </div>
+        <div class="out"></div>
+
+    </div>
+
+</body>
+
+</html>

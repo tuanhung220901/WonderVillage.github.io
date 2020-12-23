@@ -1,0 +1,213 @@
+html,
+body{
+    height: 100%;
+}
+.web{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.display {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/originals/aa/ae/a0/aaaea00d893e92c13d80a1edc42d6992.jpg");
+    background-size: cover;
+}
+.khung-chua-ten-game{
+    display: flex;
+    width: 30%;
+    height: 30%;  
+}
+.khung-bao-nut{
+    display: flex;
+    width: 65%;
+    height: 45%;
+    align-items: flex-start;
+    margin-left: 20%;
+}
+.name-game{
+    display: flex;
+    justify-content: center;
+    margin-right: 30%;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 8%;
+}
+.wrapper {
+    padding: 30px;
+}
+aside {
+    margin: auto;
+    width: 200px;
+}
+.loading {
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 26px;
+    padding: 3px;
+    background-size: 130%;
+    -webkit-filter: hue-rotate(10deg);
+    height: 50px;
+    line-height: 46px;
+    color: rgb(238, 34, 34);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4) inset;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.text,
+.border {
+    z-index: 5;
+    border-radius: 10px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    bottom: 4px;
+    right: 4px;
+    display: block;
+}
+.text {
+    top: 7px;
+    color: rgb(53, 49, 49);
+}
+.border {
+    border: 2px dashed #161515;
+    clip: rect(0, 0, 0, 0);
+    animation: maskBorder 1.8s infinite;
+}
+@keyframes maskBorder {
+0% {
+    clip: rect(0, 50px, 10px, 0);
+}
+20% {
+    clip: rect(0, 200px, 10px, 0);
+}
+35% {
+    clip: rect(0, 200px, 10px, 190px);
+}
+50% {
+    clip: rect(10px, 200px, 50px, 190px);
+}
+60% {
+    clip: rect(40px, 200px, 50px, 190px);
+}
+70% {
+    clip: rect(40px, 200px, 50px, 0px);
+}
+85% {
+    clip: rect(40px, 10px, 50px, 0px);
+}
+90% {
+    clip: rect(0, 10px, 50px, 0px);
+}
+100% {
+    clip: rect(0, 10px, 10px, 0px);
+}
+}
+.loading {
+    background: linear-gradient(100deg, rgb(185, 130, 78), rgb(250, 182, 104), rgb(122, 67, 4));
+}
+        @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600&subset=latin-ext");
+*{
+    box-sizing: border-box;
+}
+.popup {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hiden;
+    -webkit-transition: .64s ease-in-out;
+    transition: .64s ease-in-out;
+}
+.popup-inner {
+    position: relative;
+    bottom: -100vw;
+    right: -100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    max-width: 800px;
+    max-height: 600px;
+    width: 60%;
+    height: 80%;
+    background-color: #fff;
+    -webkit-transform: rotate(32deg);
+            transform: rotate(32deg);
+    -webkit-transition: .64s ease-in-out;
+    transition: .64s ease-in-out;
+}
+/* Viết cách chơi */
+.popup__text {
+    display: -webkit-box;
+    background-image: url('images/howtoplay2.jpg');
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+.popup:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup:target .popup-inner {
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+}
+.popup__close {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: .875rem;
+    font-weight: 300;
+    border-radius: 100%;
+    background-color: #0A0A0A;
+    z-index: 4;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* chữ nghệ thuật (tên gameee) */
+.wordart{
+    font-family: Arial, sans-serif;
+    font-size: 7em;
+    font-weight:700;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wordart.blues .text{
+    font-family: Impact, sans-serif;
+    color: rgb(196, 134, 77);
+    -webkit-text-stroke: 0.02em rgb(32, 28, 23);
+    text-shadow: 0.10em -0.10em 0px rgb(27, 27, 26);
+    letter-spacing: -0.01em;
+}

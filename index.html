@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <audio id="Tieng-click">
+        <source src="Music/Click.mp3">
+      </audio>
+      <audio id="Nhac-nen" loop>
+        <source src="Music/Epic battle music.mp3">
+      </audio>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Langar&family=Oswald:wght@500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="STYLENENGAME.CSS">
+      <script>
+        var tieng_click = document.getElementById("Tieng-click");
+        var nhac_nen = document.getElementById("Nhac-nen");
+        $(document).ready(function () {
+            $(".music").click(function () {
+                tieng_click.play();
+                nhac_nen.play();
+            });
+        });
+      </script>
+    </head>
+    <body>
+      <div class="display music">
+        <div class="name-game">
+          <div class="wordart blues"><span class="text" style="font-family: 'PT Serif', serif;">WONDER VILLAGE</span></div>
+        </div>
+        <div class="khung-bao-nut">             
+          <a  href="game.html">
+            <aside class="loading" style="margin-left: 50% ;">
+              <span class="text">START</span>
+              <span class="border"></span>
+            </aside>
+          </a>              
+          <a class="button" href="#popup" style="margin-left: 25% ;">
+            <aside class="loading">
+              <span class="text ">HOW TO PLAY</span>
+              <span class="border"></span>
+            </aside>
+          </a>
+        <div class="popup" id="popup">
+          <div class="popup-inner">
+            <div class="popup__text">
+              <div  style="height: 85%; width: 85%">
+                <div style="height: 85%; width: 85%; background: rgb(2, 1, 1); opacity: .3; border-radius: 10px; position: absolute; text-align: center;">
+              </div>
+              <div style="height: 85%; width: 85%;color:rgb(182, 181, 181);  position: absolute; ">
+                <div style="font-size: 20px; line-height: 1.5;position: absolute;font-family: 'Langar', cursive;font-family: 'Oswald', sans-serif;font-family: 'Poppins', sans-serif;">
+                  <h1 style="font-family: 'Langar', cursive;color: black; background-image: radial-gradient(circle, rgb(224, 137, 31), rgb(236, 174, 81), rgb(24, 64, 150));display:flex;justify-content: center">HOW TO PLAY</h1>
+                    <span style="margin-top: 0.83em;margin-left:12px">Trong chuyến phiêu lưu bạn phải vượt qua một vùng đất được 5 tên canh giữ</span>
+                    những món đồ này không được gợi ý nếu bạn chọn đúng thứ mà họ muốn bạn sẽ được tiếp tục đi.
+                    Nhiệm vụ của bạn là tìm ra thứ mà họ muốn nhận. Nếu bạn chọn đúng đồ, món đồ đó sẽ chuyển sang<strong style="color: rgb(9, 248, 9);"> màu xanh</strong>.
+                    Món đồ sẽ chuyển sang <strong style="color: rgb(247, 222, 1);">màu vàng </strong>, khi bạn chọn món đồ đó cho sai người và là cái mà 1 trong 4 tên còn lại cần.  
+                    Còn nếu bạn tặng sai đồ mà cũng không có ai khác muốn món đó, nó sẽ là <strong style="color: rgb(247, 1, 1);">màu đỏ</strong>. 
+                    Bạn có 3 lượt để đoán ra các vật phẩm ở mỗi màn. Mỗi màn chơi sẽ tự động tăng thêm 1 món đồ!! <div style="display:flex;justify-content: center;margin-top: 7%; color: rgb(255, 0, 0);">~CHÚC MAY MẮN~</div>
+                </div>
+              </div>                            
+        </div>
+          </div>
+            <a class="popup__close" href="#">X</a>
+          </div>
+        </div>   
+      </div>
+    </body>
+</html>

@@ -1,0 +1,553 @@
+html,
+body {
+    height: 100%;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+
+.display {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    background-image: url("https://media.istockphoto.com/photos/dark-wood-background-picture-id1053151614?k=6&m=1053151614&s=170667a&w=0&h=u_dVS1_zvPMMkwF2ZUkdJxsKDmf1BW98Tm8huSfgI7Y=");
+    background-size: cover;
+}
+/* .top{
+        background-color: lightcoral;
+        width: 1051px;
+        height: 38px;
+    } */
+.khungtrai {
+    background-image: url("images/khung1.png");
+}
+
+.khunggiua {
+    background-image: url("images/khung2.png");
+}
+
+.khungphai {
+    background-image: url("images/khung3.png");
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1051px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.button_start {
+    width: 200px;
+    height: 34px;
+    margin-bottom: 5%;
+}
+
+.s {
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    margin-bottom: 25px;
+}
+
+.people {
+    width: 12%;
+    height: 67%;
+    margin-top: 5%;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* .tennhanvat{
+        height: 50px;
+        width: 50px;
+        background-color: crimson;
+    } */
+.chenkhung {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.ochonvatpham {
+    height: 60px;
+    width: 95px;
+    background: linear-gradient(100deg, rgb(247, 122, 21), rgb(250, 182, 104), rgb(122, 67, 4));
+}
+.chuyendo {
+    background-color: red;
+    height: 38px;
+    width: 100%;
+    border: 1px solid rgb(19, 17, 17);
+    z-index: 10;
+
+}
+
+.chuyenxanh {
+    background-color: rgb(51, 255, 0);
+    height: 38px;
+    width: 100%;
+    border: 1px solid rgb(19, 17, 17);
+    z-index: 10;
+
+}
+
+.chuyenvang {
+    background-color: rgb(255, 238, 0);
+    height: 38px;
+    width: 100%;
+    border: 1px solid rgb(19, 17, 17);
+    z-index: 10;
+
+}
+
+.bovienvatpham {
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 30px/80px;
+}
+
+.thanhvatpham {
+    display: inline-block;
+    width: 26%;
+    height: 91%;
+    background-image: radial-gradient(circle at top right, rgb(184, 117, 42), #7e4e31);
+    justify-self: flex-start;
+    margin-left: 7%;
+    z-index: 3;
+    /* position: absolute; */
+}
+
+.thanhvatpham-wrapper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nhanvat {
+    width: 120px;
+    height: 120px;
+    /* background-image: conic-gradient(#fff, rgb(134, 78, 4)); */
+
+    border-radius: 0% 50% 50% 0%;
+    position: absolute;
+    align-self: flex-start;
+    margin-left: 16.1px;
+    margin-top: 20px;
+}
+.cha_top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4px;
+    
+}
+.nhan-vat-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 0% 50% 50% 0%;
+    position: absolute;
+    align-self: flex-start;
+    margin-left: 16.1px;
+    margin-top: 20px;
+    background-size: cover;
+}
+#nhan-vat-1 .nhan-vat-img {
+    background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/edd/2015/08/red-knight-game-art-character-featured-2.png");
+}
+
+#nhan-vat-2 .nhan-vat-img {
+    background-image: url("https://i.dlpng.com/static/png/6633913_preview.png");
+    background-size: cover;
+}
+
+#nhan-vat-3 .nhan-vat-img {
+    background-image: url("images/nhanvat3.png");
+    background-size: cover;
+}
+
+#nhan-vat-4 .nhan-vat-img {
+    background-image: url("https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2016/06/Roman-Knight-Royalty-Free-Game-Art.png");
+    background-size: cover;
+}
+
+#nhan-vat-5 .nhan-vat-img {
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/2d-game-character-png-7.png");
+    background-size: cover;
+}
+
+
+/* body,button{
+        cursor: wait;
+    }
+    button:active{
+        cursor: progress;
+    } */
+.vp1 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon1.png");
+    display: inline-block;
+    margin: 0px;
+    border: 2px double black;
+    /* border-radius: 50px/50px; */
+    border-radius: 20px 20px 20px 20px;
+}
+
+.vp2 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon2.png");
+    display: inline-block;
+    margin: 0px;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.vp3 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon3.png");
+    display: inline-block;
+    /* margin-top: -4px; */
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.vp4 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon4.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.vp5 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon5.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+.vp6 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon6.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+.vp7 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon7.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+.vp8 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon8.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+.vp9 {
+    height: 60px;
+    width: 62px;
+    background-image: url("images/icon9.png");
+    display: inline-block;
+    border: 2px double black;
+    border-radius: 20px 20px 20px 20px;
+}
+/* hiệu ứng nút chọn vật phẩm */
+.third {
+    border-color: black;
+    /* box-shadow: 0 0 40px 40px  rgb(247, 122, 26) inset, 0 0 0 0 #111110; */
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 rgb(233, 141, 35) inset, 0 0 10px 4px rgb(27, 26, 24);
+}
+
+/* hiệu ứng các vật phẩm */
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: rgb(102, 90, 79);
+}
+
+.btn::after {
+
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+/* .btn-white::after {
+                    background-color: #fff;
+                } */
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    /* animation-fill-mode: backwards; */
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* tạo hiệu ứng khung */
+.box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://image.freepik.com/free-photo/3d-wooden-table-against-black-glittery-wall_1048-8166.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(90, 55, 23);
+    border: 2px solid #ad532a;
+    color: white;
+    padding: 20px;
+    height: 250px;
+    width: 380px;
+    align-self: center;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    border-radius: 30px/90px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    
+}
+/* chỉnh viền nút */
+.khung-chinh-nut-tren{
+    display: flex;
+    width: 100%;
+    height: 74%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 52%;
+}
+.khung-chinh-nut-duoi{
+    display: flex;
+    width: 100%;
+    height: 18%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 52%;
+}
+.chinh-Nut-tren{
+    height: 57px; 
+    width:168px;   
+}
+.chinh-Nut-duoi{
+    height:52px; 
+    width:168px;   
+}
+.Nut1{
+    
+    background-image: url(images/nutrs.png);
+    border-radius: 36px;
+}
+.Nut2{
+
+    background-image: url(images/nutlv.png);
+        margin-top: 70%;
+    /*margin-left: 20%; */
+    justify-content: center;
+    border-radius: 6px;
+}
+.Nut-back{
+    background-image: url(images/thoat.png);
+    border-radius: 36px;
+}
+.Nut-thoat{
+    background-image: url(images/thoat11.png);
+    border-radius: 6px;
+}
+.bao-nut-huong-dan{
+    display: flex;
+    width: 89%;
+    height: 45px;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 20;
+}
+.khung-contain-nut-am-nhac{
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+}
+.khung-bao-nut-am-nhac{
+    width: 1px;
+    height: 1px;
+    border-radius: 12px;
+}
+.Nut-am-nhac{
+    display: flex;
+    background-image:url(images/amnhac1.png);
+    background-size: cover;  
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    z-index: 1;
+}
+.Nut-huong-dan{
+    
+    
+    background-image:url(images/huongdan1.png);
+    width: 45px;
+    height: 45px;
+}
+.khung-che{
+    background: linear-gradient(100deg, rgb(247, 122, 21), rgb(250, 182, 104), rgb(122, 67, 4));
+    background-image: url(images/dautich1.jpg);
+    background-size: cover;
+    height: 80px;
+    width: 95px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 30px/80px;
+    z-index: 2;
+}
+.nen-WIN{
+    background-image: url("images/nenwin.png");
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    justify-content: center;
+    /* align-self: center; */
+    position: absolute;
+    z-index: 100;   
+    display: none;
+}
+.nen-THUA{
+    background-image: url("images/nenthua.png");
+    height: 350px;
+    width: 300px;
+    background-size: cover;
+    align-self: center;
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+/* Nút check */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+button.learn-more {
+    font-weight: 500;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #e49754;
+    border: 3px solid #f5b476;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.learn-more::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(201, 143, 56);
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px #b19e85, 0 0.625em 0 0 #0f0808;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+            transform: translate3d(0, 0.75em, -1em);
+    -webkit-transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button.learn-more:hover {
+    background: #e49754;
+    -webkit-transform: translate(0, 0.25em);
+            transform: translate(0, 0.25em);
+}
+button.learn-more:hover::before {
+    box-shadow: 0 0 0 2px rgb(201, 143, 56), 0 0.5em 0 0 #130d0a;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+            transform: translate3d(0, 0.5em, -1em);
+}
+button.learn-more:active {
+    background: #e49754;
+    -webkit-transform: translate(0em, 0.75em);
+            transform: translate(0em, 0.75em);
+}
+button.learn-more:active::before {
+    box-shadow: 0 0 0 2px rgb(201, 143, 56), 0 0 #130c07;
+    -webkit-transform: translate3d(0, 0, -1em);
+            transform: translate3d(0, 0, -1em);
+}
