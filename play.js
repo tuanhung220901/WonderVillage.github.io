@@ -172,7 +172,7 @@ function playgame() {
                     $('.nen-THUA').css("display", "inline-block");
                     $('.nen-THUA').css("overflow", "auto");
                     $('.nen-THUA').append("<div class = 'khung-chinh-nut-tren'><button class='kq third chinh-Nut-tren Nut2'> </button></div>");
-                    $('.nen-THUA').append("<div class ='khung-chinh-nut-duoi'><a href='NENGAME.html'><button class='kq third chinh-Nut-duoi Nut-thoat'> </button></a></div>");
+                    $('.nen-THUA').append("<div class ='khung-chinh-nut-duoi'><a href='index.html'><button class='kq third chinh-Nut-duoi Nut-thoat'> </button></a></div>");
                 }
             }
             // xử lý trường hợp đúng luôn thì dừng
@@ -189,7 +189,7 @@ function playgame() {
                 $('.nen-WIN').css("overflow", "auto");
                 $(".nen-WIN").empty();
                 $('.nen-WIN').append("<div class = 'khung-chinh-nut-tren'><button class='kq third chinh-Nut-tren Nut1'> </button></div>");
-                $('.nen-WIN').append("<div class ='khung-chinh-nut-duoi'><a href='NENGAME.html'><button class='kq third chinh-Nut-duoi Nut-back'> </button></a></div>");
+                $('.nen-WIN').append("<div class ='khung-chinh-nut-duoi'><a href='index.html'><button class='kq third chinh-Nut-duoi Nut-back'> </button></a></div>");
                 level++;
                 
             }  
